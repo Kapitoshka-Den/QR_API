@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using DAL.Context;
+using QR_API.Services;
 
 namespace QR_API
 {
@@ -16,12 +17,16 @@ namespace QR_API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<QrServices>();
+            builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
+
             builder.Services.AddDbContext<DataContext>(
                 options =>
                 {
                     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql"), sql => { });
                 });
 
+            
 
             var app = builder.Build();
 

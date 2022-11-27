@@ -9,7 +9,7 @@ public partial class Equipment
 
     public string Title { get; set; } = null!;
     public string Avatar { get; set; } = null!;
-    public string? ResponsibleName { get; set; }
+    public string ResponsibleName { get; set; } = null!;
 
-    public virtual ICollection<EquipmentPhoto> EquipmentPhotos { get; } = new List<EquipmentPhoto>();
+    public virtual ICollection<EquipmentPhoto>? EquipmentPhotos { get; } = new List<EquipmentPhoto>();
 }

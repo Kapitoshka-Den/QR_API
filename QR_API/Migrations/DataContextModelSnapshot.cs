@@ -35,6 +35,7 @@ namespace QRAPI.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("ResponsibleName")
+                        .IsRequired()
                         .HasColumnType("character varying")
                         .HasColumnName("responsible_name");
 

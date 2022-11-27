@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace QRAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class addAvatarForEquipment : Migration
+    public partial class inital : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,7 @@ namespace QRAPI.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     title = table.Column<string>(type: "character varying", nullable: false),
                     Avatar = table.Column<string>(type: "text", nullable: false),
-                    responsiblename = table.Column<string>(name: "responsible_name", type: "character varying", nullable: true)
+                    responsiblename = table.Column<string>(name: "responsible_name", type: "character varying", nullable: false)
                 },
                 constraints: table =>
                 {

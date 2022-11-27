@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace QRAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221125145547_addAvatarForEquipment")]
-    partial class addAvatarForEquipment
+    [Migration("20221126224055_inital")]
+    partial class inital
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,6 +38,7 @@ namespace QRAPI.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("ResponsibleName")
+                        .IsRequired()
                         .HasColumnType("character varying")
                         .HasColumnName("responsible_name");
 
