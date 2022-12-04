@@ -3,6 +3,8 @@ using DAL.Context;
 using Microsoft.AspNetCore.Components;
 using QR_API.Models;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
+using AutoMapper.QueryableExtensions;
 
 namespace QR_API.Services
 {
@@ -32,6 +34,15 @@ namespace QR_API.Services
                 return _mapper.Map<Equipment, CreateEquipmentModel>(equipment);
             else
                 throw new Exception("user is not found");
+        }
+
+        public async Task<List<CreateEquipmentModel>> GetEquipmetns()
+        {
+            return await _context.Equipments
+                .AsNoTracking()
+                .ProjectTo<CreateEquipmentModel>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+
         }
     }
 }

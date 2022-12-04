@@ -26,7 +26,16 @@ namespace QR_API
                     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql"), sql => { });
                 });
 
-            
+
+            var _myPolicyCors = "_myPolicyCors";
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(_myPolicyCors, policy =>
+                {
+                    policy.AllowAnyOrigin().AllowAnyMethod();
+                });
+            });
 
             var app = builder.Build();
 
@@ -41,11 +50,10 @@ namespace QR_API
 
 
                 // Configure the HTTP request pipeline.
-                if (app.Environment.IsDevelopment())
-                {
+                
                     app.UseSwagger();
                     app.UseSwaggerUI();
-                }
+                
 
             
 
@@ -53,7 +61,7 @@ namespace QR_API
 
             app.UseAuthorization();
 
-
+            app.UseCors(_myPolicyCors);
             app.MapControllers();
 
             app.Run();

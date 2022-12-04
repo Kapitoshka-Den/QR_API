@@ -10,5 +10,6 @@ public class MapperProfile:Profile
     {
         CreateMap<CreateEquipmentModel, Equipment>();
         CreateMap<Equipment, CreateEquipmentModel>();
+        CreateMap<EquipmentPhoto, CreateEquipmentPhoto>();
     }
 }

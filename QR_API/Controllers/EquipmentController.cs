@@ -22,5 +22,9 @@ namespace QR_API.Controllers
         [HttpGet]
         public async Task<CreateEquipmentModel> GetEquipmentById(long id)
             => await _qrServices.GetEquipment(id);
+
+        [HttpGet]
+        public async Task<List<CreateEquipmentModel>> GetEquipments()
+            => await _qrServices.GetEquipmetns();
     }
 }
