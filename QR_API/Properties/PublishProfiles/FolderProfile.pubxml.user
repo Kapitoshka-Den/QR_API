@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\testapi\QR_API\QR_API\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-12-05T12:42:29.8977695Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="PostgreSql">
+      <Value>Host=89.110.53.87%3bPort=5432%3bUsername=postgres%3bDatabase=Equipments%3bPassword=QWEasd123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DAL.Context.DataContext">
+      <Value>Host=89.110.53.87%3bPort=5432%3bUsername=postgres%3bDatabase=Equipments%3bPassword=QWEasd123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

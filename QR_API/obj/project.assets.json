@@ -1977,23 +1977,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Денис\\.nuget\\packages\\": {},
+    "C:\\Users\\ClassStudent\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkProject\\QR_API\\QR_API\\QR_API\\QR_API.csproj",
+      "projectUniqueName": "D:\\testapi\\QR_API\\QR_API\\QR_API.csproj",
       "projectName": "QR_API",
-      "projectPath": "C:\\WorkProject\\QR_API\\QR_API\\QR_API\\QR_API.csproj",
-      "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkProject\\QR_API\\QR_API\\QR_API\\obj\\",
+      "projectPath": "D:\\testapi\\QR_API\\QR_API\\QR_API.csproj",
+      "packagesPath": "C:\\Users\\ClassStudent\\.nuget\\packages\\",
+      "outputPath": "D:\\testapi\\QR_API\\QR_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ClassStudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2003,15 +2003,14 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Test\\WpfApp1": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkProject\\QR_API\\QR_API\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\WorkProject\\QR_API\\QR_API\\DAL\\DAL.csproj"
+            "D:\\testapi\\QR_API\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\testapi\\QR_API\\DAL\\DAL.csproj"
             }
           }
         }

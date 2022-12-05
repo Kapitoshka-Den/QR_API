@@ -1,0 +1,14 @@
+D:\testapi\QR_API\DAL\bin\Release\net6.0\DAL.deps.json
+D:\testapi\QR_API\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+D:\testapi\QR_API\DAL\bin\Release\net6.0\DAL.dll
+D:\testapi\QR_API\DAL\bin\Release\net6.0\DAL.pdb
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.dll
+D:\testapi\QR_API\DAL\obj\Release\net6.0\refint\DAL.dll
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.pdb
+D:\testapi\QR_API\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+D:\testapi\QR_API\DAL\obj\Release\net6.0\ref\DAL.dll

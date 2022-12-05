@@ -33,7 +33,7 @@ namespace QR_API
             {
                 options.AddPolicy(_myPolicyCors, policy =>
                 {
-                    policy.AllowAnyOrigin().AllowAnyMethod();
+                    policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
                 });
             });
 
